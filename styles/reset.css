@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* Font Size Trick
+See more: https://medium.com/@vemlavaralouca/fonte-base-dos-browsers-767327ebca1a
+*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
