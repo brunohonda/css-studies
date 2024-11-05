@@ -5,10 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Css Studies</title>
   
-  <link rel="stylesheet" href="styles/reset.css" />
+  <link rel="stylesheet" href="/styles/reset.css" />
+  <link rel="stylesheet" href="/styles/base.css" />
+  <style>
+    .test-buttons {
+      display: flex;
+      margin: 1rem 0;
+      gap: 1rem;
+    }
+    
+    .test-buttons a {
+      padding: 1rem 2rem;
+      border-radius: .5rem;
+      background-size: 200% auto;
+      background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #a6c1ee 100%);
+      color: #666;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    
+    .test-buttons a:hover {
+      background-position: right center;
+      color: #fff;
+    }
+  </style>
 </head>
 <body>
   <h1>Teste de Font Size Trick</h1>
   <p>Texto comum</p>
+  <section>
+    <h2>Testes</h2>
+    <div class="test-buttons">
+      <a href="/initial-menu/">Menu Iniciar</a>
+    </div>
+  </section>
 </body>
 </html>
