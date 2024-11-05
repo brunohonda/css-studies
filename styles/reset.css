@@ -12,6 +12,7 @@ See more: https://medium.com/@vemlavaralouca/fonte-base-dos-browsers-767327ebca1
 */
 html {
   font-size: 62.5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
