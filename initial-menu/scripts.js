@@ -3,6 +3,7 @@ function toggleMenu(el) {
     return el.classList.remove('open');
   }
 
+  document.getElementById('menu__search-input').focus();
   return el.classList.add('open');
 }
 
